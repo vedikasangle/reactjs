@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+//var React = require("react");
+//var ReactDOM = require("react-dom");
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello World!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> 
-      </header>
-    </div>
-  );
-}
+import React from "react";
+import ReactDOM from "react-dom";
 
-export default App;
+ReactDOM.render(
+  <div>
+    <h1>Hello World</h1>
+    <p>This is a para</p>
+  </div>,
+  document.getElementById("root")
+);
+
+var h1 = document.createElement("h1");
+h1.innerHTML = "Hello World!";
+document.getElementById("root").appendChild(h1);
