@@ -13,6 +13,7 @@ import ReactDOM from "react-dom";
 
 var yourname = "Vedika";
 var currentyear = new Date().getFullYear();
+//in new date(2022, 6, 1) -->we can insert our own date in this way
 
 ReactDOM.render(
   <div>
